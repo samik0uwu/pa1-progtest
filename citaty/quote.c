@@ -17,7 +17,7 @@ int main (void){
     
     int number;
     printf("ml' nob:\n");
-    if (scanf("%d", number)!=1 || number<1 ||number>9)
+    if (scanf("%d", &number)!=1 || number<1 ||number>9)
     {
         printf("luj\n");
     }
