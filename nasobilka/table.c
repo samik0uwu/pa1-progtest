@@ -15,12 +15,7 @@ int main (void){
             tmp/=10;
             width++;
         }
-        int firstWidth=1;
-        tmp=rozsah;
-        while(tmp>0){
-            tmp/=10;
-            firstWidth++;
-        }
+        int firstWidth=width-1;
 
         //nakreslit prvni line
         //pred kazdou line cislo ty radky
